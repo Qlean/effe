@@ -1,7 +1,7 @@
-require 'effe/version'
 require 'effe/effectful'
+require 'effe/some'
 
-module Effe
-  class Error < StandardError; end
-  # Your code goes here...
-end
+# module Effe
+#   class Error < StandardError; end
+#   # Your code goes here...
+# end

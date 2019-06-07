@@ -4,7 +4,7 @@ require 'effe/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'effe'
-  spec.version       = Effe::Version::VERSION
+  spec.version       = Effe::VERSION
   spec.authors       = ['lambdadelta']
   spec.email         = ['waterdropfalls@gmail.com']
 
