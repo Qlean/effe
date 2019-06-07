@@ -65,7 +65,7 @@ first = A.new
 second = B.new
 third = -> { Effectful(some_val, []) }
 
-first.call.bind { || second.call }.bind { || third.call }
+first.call.bind { |first_result| second.call }.bind { |second_result| third.call }
 ```
 
 ## Development
