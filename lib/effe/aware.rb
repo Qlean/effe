@@ -1,5 +1,5 @@
 module Effe
-  class Some
+  class Aware
     include Effectful
 
     attr_reader :value, :effects

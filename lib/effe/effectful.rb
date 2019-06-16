@@ -1,7 +1,7 @@
 module Effe
   module Effectful
     def Effectful(value, effects)
-      Some.new(value, effects)
+      Aware.new(value, effects)
     end
   end
 end

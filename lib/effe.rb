@@ -1,5 +1,5 @@
 require 'effe/effectful'
-require 'effe/some'
+require 'effe/aware'
 
 # module Effe
 #   class Error < StandardError; end
